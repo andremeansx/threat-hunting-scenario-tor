@@ -129,6 +129,6 @@ On `11 July 2025`, the user `employee` intentionally installed and executed the 
 
 ## Response Taken
 
-TOR usage was confirmed on the endpoint `threat-hunt-lab` by the user `employee`. The device was isolated, and the user's direct manager was notified.
+TOR usage was confirmed on the endpoint `vm-lab-target` by the user `employee`. The device was isolated, and the user's direct manager was notified.
 
 ---
