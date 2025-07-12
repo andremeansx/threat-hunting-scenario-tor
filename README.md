@@ -47,18 +47,19 @@ DeviceFileEvents
 
 ### 2. Searched the `DeviceProcessEvents` Table
 
-Searched for any `ProcessCommandLine` that contained the string "tor-browser-windows-x86_64-portable-14.0.1.exe". Based on the logs returned, at `2024-11-08T22:16:47.4484567Z`, an employee on the "threat-hunt-lab" device ran the file `tor-browser-windows-x86_64-portable-14.0.1.exe` from their Downloads folder, using a command that triggered a silent installation.
+Queried the `DeviceProcessEvents` table for any `ProcessCommandLine` containing the string `tor-browser-windows-x86_64-portable`. The results show that on `2025-07-11T19:22:19.777453Z`, the user `employee` executed the file `tor-browser-windows-x86_64-portable-14.5.4.exe` from the Downloads folder on the `vm-lab-target` device. The command included a silent installation switch, indicating an unattended setup of the Tor Browser.
 
 **Query used to locate event:**
 
 ```kql
 
-DeviceProcessEvents  
-| where DeviceName == "threat-hunt-lab"  
-| where ProcessCommandLine contains "tor-browser-windows-x86_64-portable-14.0.1.exe"  
-| project Timestamp, DeviceName, AccountName, ActionType, FileName, FolderPath, SHA256, ProcessCommandLine
+DeviceProcessEvents
+| where DeviceName == "vm-lab-target"
+| where ProcessCommandLine contains "tor-browser-windows-x86_64-portable"
+| project Timestamp, DeviceName, AccountName, ActionType, FileName, ProcessCommandLine, FolderPath, SHA256
 ```
-<img width="1212" alt="image" src="https://github.com/user-attachments/assets/b07ac4b4-9cb3-4834-8fac-9f5f29709d78">
+<img width="2625" height="142" alt="image" src="https://github.com/user-attachments/assets/2fe0ff37-6a21-49f3-bb03-2e9c1ba0cb4c" />
+
 
 ---
 
