@@ -102,7 +102,7 @@ DeviceNetworkEvents
 
 ---
 
-### 🕒 Chronological Event Timeline  — Tor Browser Activity on `vm-lab-target` Device
+### 🕒 Chronological Events Timeline  — Tor Browser Activity on `vm-lab-target` Device
 
 | **Time (UTC)**         | **Event**                                                                                                                                              |
 |------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
