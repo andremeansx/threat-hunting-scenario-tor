@@ -94,4 +94,4 @@ DeviceFileEvents
 ## Revision History:
 | **Version** | **Changes**                   | **Date**         | **Modified By**   |
 |-------------|-------------------------------|------------------|-------------------|
-| 1.0         | Initial draft                  | `July  11, 2024`  | `Andre Means`   
+| 1.0         | Initial draft                  | `July  12, 2024`  | `Andre Means`   
