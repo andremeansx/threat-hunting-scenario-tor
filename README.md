@@ -123,7 +123,7 @@ DeviceNetworkEvents
 
 ## Summary
 
-On `11 July 2025`, the user `employee` deliberately installed the Tor Browser on the `vm-lab-target` device, executed it, and used it to access the internet through the Tor network. They proceeded to launch the browser, establish connections within the Tor network, and created various files related to Tor on their desktop, including a file named `tor-shopping-list.txt`. This activity was sustained and intentional—not accidental—and resulted in multiple host-level and network-level indicators.
+On `11 July 2025`, the user `employee` intentionally installed and executed the Tor Browser on the `vm-lab-target` device. They subsequently launched the browser, established connections within the Tor network, and created multiple Tor-related artifacts on the desktop, including a file named `tor-shopping-list.txt`. This activity was deliberate, sustained, and generated several host- and network-level indicators of use.
 
 ---
 
