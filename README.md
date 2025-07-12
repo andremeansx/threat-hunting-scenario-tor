@@ -123,7 +123,7 @@ DeviceNetworkEvents
 
 ## Summary
 
-The user "employee" on the "threat-hunt-lab" device initiated and completed the installation of the TOR browser. They proceeded to launch the browser, establish connections within the TOR network, and created various files related to TOR on their desktop, including a file named `tor-shopping-list.txt`. This sequence of activities indicates that the user actively installed, configured, and used the TOR browser, likely for anonymous browsing purposes, with possible documentation in the form of the "shopping list" file.
+On `11 July 2025`, the user `employee` deliberately installed the Tor Browser on the `vm-lab-target` device, executed it, and used it to access the internet through the Tor network. This activity was sustained and intentional—not accidental—and resulted in multiple host-level and network-level indicators.
 
 ---
 
